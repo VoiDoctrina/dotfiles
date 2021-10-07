@@ -1,5 +1,5 @@
 # dotfiles
-Just my system configs.
-
-                ^
-Literally this  |
+# Just my system configs.
+#
+#                 ^
+# Literally this  |
