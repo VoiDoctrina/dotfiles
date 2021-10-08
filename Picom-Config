@@ -119,9 +119,9 @@ wintypes :
 # XSync
 xrender-sync-fence = true;
 opacity-rule = [
-    "85:class_g = 'Atom'",
-    "85:class_g = 'URxvt'",
-    "85:class_g = 'dolphin'",
+    "90:class_g = 'Atom'",
+    "90:class_g = 'URxvt'",
+    "90:class_g = 'dolphin'",
 ];
 
 # killall picom
