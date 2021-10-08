@@ -123,3 +123,6 @@ opacity-rule = [
     "85:class_g = 'URxvt'",
     "85:class_g = 'dolphin'",
 ];
+
+# killall picom
+# picom --experimental-backends
