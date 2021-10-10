@@ -1,0 +1,11 @@
+exec_always xmodmap -e "keycode 135 = Pause" && xmodmap -e "keycode 127 = Menu"
+exec_always xmodmap -e "add mod3 = Pause"
+bindsym $menu+x exec rofi -show combi
+bindsym $menu+z exec rofi -show window
+exec_always picom --experimental-backends
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause-play
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
