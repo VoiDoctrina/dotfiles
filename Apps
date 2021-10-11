@@ -1,0 +1,2 @@
+sudo pacman -Rcns bmenu gcolor2 hwloc kvantum-qt5 libxfce4ui lxinput palemoon-bin pcmanfm urxvt xfce4-notifyd xterm
+sudo pacman -Syu alacritty fish playerctl rofi 
