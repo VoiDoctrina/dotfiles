@@ -1,2 +1,1 @@
-sudo pacman -Syu alacritty fish playerctl rofi thunar
-sudo pacman -Rcns bmenu gcolor2 palemoon-bin pcmanfm rxvt-unicode xterm
+sudo pacman -Syu alacritty fish playerctl rofi nnn emacs
