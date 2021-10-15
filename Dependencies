@@ -1,4 +1,4 @@
-sudo pacman -Syu alacritty fish playerctl rofi firefox nodejs ranger ueberzug neovim neofetch feh alsa-utils git xsel 
+sudo pacman -Syu alacritty fish playerctl rofi firefox nodejs ranger ueberzug neovim neofetch feh alsa-utils git xsel python-pip
 sudo pacman -Rcns pulseaudio
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
