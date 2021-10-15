@@ -97,4 +97,4 @@ Just my system configs.
 #
 #
 Why are you down here?
-Didn"t you see the message above?
+Didn't you see the message above?
