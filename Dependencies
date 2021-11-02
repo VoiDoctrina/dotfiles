@@ -1,4 +1,4 @@
-sudo pacman -Syu alacritty fish playerctl rofi firefox nodejs ranger ueberzug neovim neofetch feh alsa-utils git xsel python-pip
+sudo pacman -Syu alacritty fish playerctl rofi nodejs ranger ueberzug neovim neofetch feh alsa-utils git xsel python-pip
 sudo pacman -Rcns pulseaudio xterm
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
@@ -6,4 +6,4 @@ sudo chown -R tecmint:tecmint ./yay-git
 cd yay-git
 makepkg -si
 cd ~
-yay -S nvim-packer-git picom-git
+yay -S nvim-packer-git picom-git xrootgif brave
