@@ -1,0 +1,14 @@
+sudo pacman -Syu alacritty fish playerctl rofi nodejs ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip
+sudo pacman -Rs pulseaudio xterm
+yay -S nvim-packer-git picom-git brave-bin
+ranger --copy-config=all
+cd ~/.config
+mkdir ~/.config/rofi
+cd rofi
+touch config.rasi
+touch BlackAndGreen.rasi
+cd ~/.config
+mkdir picom
+cd picom
+touch picom.conf
+chsh -s /usr/bin/fish
