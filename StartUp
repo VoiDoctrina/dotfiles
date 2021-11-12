@@ -1,4 +1,4 @@
-sudo pacman -Syu alacritty fish playerctl rofi nodejs ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip
+sudo pacman -Syu alacritty ufw fish playerctl rofi nodejs ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip
 sudo pacman -Rs pulseaudio xterm pavucontrol
 yay -S nvim-packer-git picom-git brave-bin
 ranger --copy-config=all
@@ -12,3 +12,5 @@ mkdir picom
 cd picom
 touch picom.conf
 chsh -s /usr/bin/fish
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
