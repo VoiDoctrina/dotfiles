@@ -14,3 +14,5 @@ touch picom.conf
 chsh -s /usr/bin/fish
 sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
+sudo ufw enable
+sudo systemctl enable ufw
