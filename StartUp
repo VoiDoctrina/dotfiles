@@ -1,5 +1,5 @@
 sudo pacman -Syu alacritty fish playerctl rofi nodejs ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip
-sudo pacman -Rs pulseaudio xterm
+sudo pacman -Rs pulseaudio xterm pavucontrol
 yay -S nvim-packer-git picom-git brave-bin
 ranger --copy-config=all
 cd ~/.config
