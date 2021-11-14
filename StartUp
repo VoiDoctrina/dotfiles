@@ -1,4 +1,4 @@
-sudo pacman -Syu alacritty ufw fish playerctl rofi nodejs ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip flameshot discord nm-applet
+sudo pacman -Syu alacritty ufw fish playerctl rofi nodejs unzip ranger ueberzug polybar neovim neofetch feh alsa-utils git xsel python-pip flameshot discord nm-applet
 sudo pacman -Rs pulseaudio xterm pavucontrol
 yay -S nvim-packer-git picom-git brave-bin
 chsh -s /usr/bin/fish
