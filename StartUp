@@ -7,3 +7,5 @@ sudo systemctl start fstrim.timer
 sudo ufw enable
 sudo systemctl enable ufw
 mv ~/dotfiles/i3 ~/dotfiles/neofetch ~/dotfiles/picom ~/dotfiles/polybar ~/dotfiles/ranger ~/dotfiles/rofi ~/.config
+chmod +x /home/voidatom/.config/polybar/launch.sh
+chmod +x /home/voidatom/.config/ranger/scope.py
