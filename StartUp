@@ -16,3 +16,4 @@ sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 sudo ufw enable
 sudo systemctl enable ufw
+mv ~/dotfiles/i3 ~/dotfiles/neofetch ~/dotfiles/picom ~/dotfiles/polybar ~/dotfiles/ranger ~/dotfiles/rofi
