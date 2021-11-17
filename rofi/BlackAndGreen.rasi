@@ -58,7 +58,7 @@ listview {
    border-color: @separatorcolor;
    spacing:      0px ;
    scrollbar:    false;
-   padding:      10px 750px 325px ;
+   padding:      10px 675px 10px ;
 }
 element {
    border:  0;
@@ -81,7 +81,7 @@ element.normal.urgent {
    text-color:       @urgent-foreground;
 }
 element.normal.active {
-   background-color: @active-background;
+   background-color: @active-backgroun;
    text-color:       @active-foreground;
 }
 element.selected.normal {
@@ -109,14 +109,26 @@ element.alternate.active {
    text-color:       @alternate-active-foreground;
 }
 mode-switcher {
-   border:       0px 0px 0px ;
+   border:       0px 675px 310px ;
    border-color: @separatorcolor;
+   spacing:      0px ;
+}
+button.selected {
+   background-color: @selected-normal-background;
+   text-color:       @selected-normal-foreground;
+   border:           0px 0px 0px ;
+}
+button.normal {
+   background-color: @normal-background;
+   text-color:       @normal-foreground;
+   border:           0px 0px 0px ;
+   margin:	     100px;
 }
 inputbar {
    spacing:    0;
    border:     0px ;
    text-color: @normal-foreground;
-   padding:    400px 750px 0px ;
+   padding:    400px 580px 0px ;
 }
 case-indicator {
    spacing:    0;
@@ -135,7 +147,8 @@ inputbar {
 }
 textbox-prompt-colon {
    expand:     false;
-   str:        "~";
+   str:        ":";
    margin:     0px 0.5em 0em 0em ;
    text-color: @normal-foreground;
 }
+
