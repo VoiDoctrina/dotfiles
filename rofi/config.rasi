@@ -12,9 +12,9 @@ configuration {
 /*	run-command: "{cmd}";*/
 /*	run-list-command: "";*/
 /*	run-shell-command: "{terminal} -e {cmd}";*/
-/*  window-command: "wmctrl -i -R {window}";*/
+    window-command: "wmctrl -i -R {window}";
 /*	window-match-fields: "all";*/
-    icon-theme: "Papirus-Dark-Maia";
+    icon-theme: "Papirus";
 /*	drun-match-fields: "name,generic,exec,categories,keywords";*/
 /*	drun-categories: ;*/
 /*	drun-show-actions: false;*/
@@ -40,7 +40,7 @@ configuration {
 /*	dpi: -1;*/
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
-    window-format: "{c}";
+    window-format: "{c} {i} {t}";
     click-to-exit: false;
     theme: "BlackAndGreen";
 /*	max-history-size: 25;*/
@@ -54,12 +54,12 @@ configuration {
 /*	steal-focus: false;*/
 /*	application-fallback-icon: ;*/
 /*	pid: "/run/user/1000/rofi.pid";*/
-/*	display-window: ;*/
+    display-window: "       Window";
 /*	display-windowcd: ;*/
 /*	display-run: ;*/
 /*	display-ssh: ;*/
 /*	display-drun: ;*/
-/*	display-combi: ;*/
+    display-combi: "       Execute";
 /*	display-keys: ;*/
 /*	display-filebrowser: ;*/
 /*	kb-primary-paste: "Control+V,Shift+Insert";*/
@@ -145,3 +145,4 @@ configuration {
       sorting-method:    "name";
   }
 }
+
